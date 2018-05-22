@@ -3,10 +3,10 @@ import sys
 
 if __name__ == "__main__":
 
-    group_photo_bucket='timohare.grade5.photos'
-    reference_photo_bucket='timohare.grade5.referencefaces'
-    sourceFile='000IMG_2137.JPG'
-    targetFile='1st Grade Sorrenson.JPG'
+    group_photo_bucket=''
+    reference_photo_bucket=''
+    sourceFile=''
+    targetFile=''
     s3 = boto3.resource('s3')
     s3_2 = boto3.resource('s3')
     b_ref = s3.Bucket(reference_photo_bucket)
